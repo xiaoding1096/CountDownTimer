@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 7rem;
+    margin-top: 100px;
+}
+
+.countdowntimer-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#displaytimer-input {
+    height: 200px;
+    width: 30%;
+    font-size: 8rem;
+    text-align: right;
+    padding: 0 20px;
+}
+
+button {
+    margin-left: 50px;
+    padding: 40px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#timer {
+    margin-top: 60px;
+    font-size: 8rem;
+    font-weight: 600;
+}
